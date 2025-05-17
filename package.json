@@ -1,0 +1,22 @@
+{
+  "name": "stackify",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/src/cli.js",
+  "description": "**Stackify** is a customizable full-stack boilerplate generator that lets you choose your tech stack — from frontend frameworks to backend, database, and ORM — and instantly scaffolds a ready-to-use project using a modular, contract-based system.",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^22.15.18",
+    "inquirer": "^9.3.7",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.19.4",
+    "typescript": "^5.2.2"
+  }
+}
